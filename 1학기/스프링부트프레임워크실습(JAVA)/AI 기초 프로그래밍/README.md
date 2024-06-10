@@ -37,8 +37,8 @@
   <li>Service 특징</li>
   <p>Spring Boot Frameworks는 실행될 때 <Strong>@Service 정의된 자바 클래스들을 메모리에 올리며, 메모리 관리를 Spring Boot Frameworks가 수행</Strong>함<br><code>따라서 Service는 메모리 관리를 개발자가 하지 않음</code></p>
   <li>Service 구조</li>
-  <p>인터페이스와 그 인터페이스를 구현한 자바로 구성</p>
-  <code>public class <strong>OcrService</strong>(자바) implements <strong>IOcrServce</strong>(인터페이스)</code>
+  <p>인터페이스와 그 인터페이스를 구현한 자바로 구성<br><code>public class <strong>OcrService</strong>(자바) implements <strong>IOcrServce</strong>(인터페이스)</code></p>
+  
   <li>참고 사항</li>
   <p>메모리는 싱글톤 패턴으로 올라감</p>
 </ul>
