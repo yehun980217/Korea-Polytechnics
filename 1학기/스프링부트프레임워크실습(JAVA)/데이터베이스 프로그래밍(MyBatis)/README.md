@@ -89,7 +89,7 @@
       isPresent() : 값의 존재여부 결과 반환<br><br>
       <code>Optional.ofNullable().orElseGet()</code>함수<br>
       함수 실행 결과가 NULL값이면 NULL 대신 Empty(값이 없음)로 처리<br>
-      프로그래밍 언어에서 NULL과 Empty는 큰 차이가 있음
+      프로그래밍 언어에서 NULL과 Empty는 큰 차이가 있음<br>
       <code>NULL</code> : 메모리에 존재하지 않음(메모리에 없는 데이터 참조 시 무조건 에러, NullPointerException 발생<br>
       <code>Empty</code> : 메모리에 변수는 존재하나 값이 없음</p>
     </ul>
