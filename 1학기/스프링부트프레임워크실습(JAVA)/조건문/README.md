@@ -21,7 +21,7 @@
   <li>중첩 if문</li>
   <p>조건을 검사하는 과정이 두 번 이상인 경우에 사용함<br>if문 안에 또 다른 if문이 있는 것</p>
   <li>else if문</li>
-  <p>학점 처리 예제 Code05_07</p>
+  <p><a href="https://github.com/yehun980217/Korea-Polytechnics/blob/main/1%ED%95%99%EA%B8%B0/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC%EC%8B%A4%EC%8A%B5(JAVA)/%EC%A1%B0%EA%B1%B4%EB%AC%B8/Code05_09.java">학점 처리 예제 Code05_07</a></p>
 </ul>
 <h1>switch~case문의 개요</h1>
 <ul>
