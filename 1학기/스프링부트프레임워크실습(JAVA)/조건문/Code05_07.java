@@ -20,7 +20,7 @@ public class Code05_07 {
             System.out.print("F");
         }
 
-        System.out.println("학점입니다.");
+        System.out.println(" 학점입니다.");
         sc.close();
     }
 }
