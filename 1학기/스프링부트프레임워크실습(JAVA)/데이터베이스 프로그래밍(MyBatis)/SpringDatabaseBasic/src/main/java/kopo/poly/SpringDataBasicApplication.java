@@ -31,7 +31,7 @@ public class SpringDataBasicApplication implements CommandLineRunner {
 		pDTO = new StudentDTO();
 
 		pDTO.setUserId("shin");
-		pDTO.setUserName("신길동");
+		pDTO.setUserName("신예훈");
 		pDTO.setEmail("shin@gmail.com");
 		pDTO.setAddr("수원");
 
@@ -47,10 +47,10 @@ public class SpringDataBasicApplication implements CommandLineRunner {
 		//학생 수정
 		pDTO = new StudentDTO();
 
-		pDTO.setUserId("hong");
-		pDTO.setUserName("홍길동_수정");
-		pDTO.setEmail("hong2@gmail.com");
-		pDTO.setAddr("제주");
+		pDTO.setUserId("shin");
+		pDTO.setUserName("신예훈_수정");
+		pDTO.setEmail("shin@gmail.com");
+		pDTO.setAddr("수원_수정");
 
 		rList = studentService.updateStudent(pDTO);
 
@@ -64,7 +64,7 @@ public class SpringDataBasicApplication implements CommandLineRunner {
 		// 학생 삭제
 		pDTO = new StudentDTO();
 
-		pDTO.setUserId("kong");
+		pDTO.setUserId("shin");
 
 		rList = studentService.deleteStudent(pDTO);
 
