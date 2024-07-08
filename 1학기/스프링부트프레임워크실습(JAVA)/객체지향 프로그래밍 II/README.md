@@ -39,3 +39,18 @@
   ![image](https://github.com/yehun980217/Korea-Polytechnics/assets/148829925/3182402c-8137-4de8-9e6d-a085fce1b656)
 </p>
 </ul>
+<h1>상속 방지</h1>
+<ul>
+  <li>private</li>
+  <p>기본적으로 서브 클래스는 슈퍼 클래스의 속성과 메서드를 상속받는데, 이러한 상속을 막을 수도 있음<br>
+  슈퍼 클래스의 속성 또는 메서드 앞에 private를 붙이면 상속되지 않음<br>
+  [예] 토끼 클래스의 상속을 방지하기<br>
+  ![image](https://github.com/yehun980217/Korea-Polytechnics/assets/148829925/c981b39f-5241-4aae-b865-2d0b147709b2)
+</p>
+</ul>
+<h1>메서드 오버라이딩</h1>
+<ul>
+  <li>메서드 오버 라이딩</li>
+  <p>슈퍼 클래스의 메서드를 서브 클래스에서 재정의하는 것<br>
+  클래스로부터 상속받은 메서드를 무시하고 동일한 이름의 메서드를 다시 만드는 것을 의미함</p>
+</ul>
