@@ -57,6 +57,8 @@
     <code>배열명 = Arrays.copyOf(배열명, 새로운_길이)</code></p>
     <li>for문의 다른 용법</li>
     <p>배열의 요소에 하나씩 접근하여 출력하는 for문<br>
-    &nbsp; &nbsp;→ 배열의 요소를 추출하기 위해 첨자 i를 사용함<br></p>
+    &nbsp; &nbsp;→ 배열의 요소를 추출하기 위해 첨자 i를 사용함<br>
+    ![image](https://github.com/yehun980217/Korea-Polytechnics/assets/148829925/a1061b2d-cdf4-4a08-8736-831fdac4eadc)
+</p>
   </ul>
 </ul>
