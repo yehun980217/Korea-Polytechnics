@@ -8,11 +8,11 @@ photoList = [None] * 9
 num = 0
 
 # 함수 선언 부분
-def clickNext() :
+def clickNext() : # 다음 버튼 함수
     global num
     num += 1
-    if num > 8 :
-        num = 0
+    if num > 8 : # 인덱스 8이 넘어가면
+        num = 0 # 다시 인덱스를 0으로 초기화하여 인덱스 0번 즉 처음 사진을 다시 노출시킴
     photo = PhotoImage(file="../GIF/"+fnameList[num])
     pLabel.configure(image=photo)
     pLabel.image = photo
