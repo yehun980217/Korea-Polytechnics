@@ -1,7 +1,7 @@
 from tkinter import *
 from typing import List
 
-# 전역 변수 선언 부분.
+# 전역 변수 선언 부분
 # 버튼을 저장할 9개짜리 리스트 준비
 btnList = [None] * 9
 # 이미지 파일명을 저장하는 리스트
