@@ -31,7 +31,8 @@
 - **Lombok**: 코드 간결화
 
 ---
-
+진도마다 업데이트
+https://drive.google.com/file/d/1z5Ytk0-PObt_N7C9T8C0chuMRtjXDuKp/view?usp=drive_link
 
 
 
