@@ -26,7 +26,7 @@
 
 ---
 진도마다 업데이트
-https://drive.google.com/file/d/1z5Ytk0-PObt_N7C9T8C0chuMRtjXDuKp/view?usp=drive_link
+[https://drive.google.com/file/d/1z5Ytk0-PObt_N7C9T8C0chuMRtjXDuKp/view?usp=drive_link](https://drive.google.com/file/d/1SqFydS2doNbQn-LSFsQ1wlE2h6a0lwQ3/view?usp=drive_link)
 
 
 
