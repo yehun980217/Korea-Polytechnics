@@ -15,7 +15,7 @@
 ## 🛠️ 환경 설정
 - **Java**: OpenJDK 17 이상
 - **Database**: MariaDB
-- **Build Tool**: Maven
+- **Build Tool**: Gradle
 
 ---
 
