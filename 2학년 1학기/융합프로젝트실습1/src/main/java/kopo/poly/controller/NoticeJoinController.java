@@ -73,4 +73,55 @@ public class NoticeJoinController {
 
         return "notice/noticeListJoin";
     }
+
+    @GetMapping(value = "noticeListUsingJPQL")
+    public String noticeListUsingJPQL(HttpSession session, ModelMap model) throws Exception {
+
+        log.info(this.getClass().getName() + ".noticeListUsingJPQL Start!");
+
+        // 로그인된 사용자 아이디는 Session에 저장
+        // 교육용으로 아직 로그인을 구현하지 않았기 때문에 Session에 데이터 저장 안함
+        // 추후 구현할건데 지금은 로그인한것처럼 Session 생성함
+        session.setAttribute("SESSION_USER_ID", "USER01");
+
+        // 공지사항 리스트 조회하기
+        // NPE 처리
+        List<NoticeDTO> rList = Optional.ofNullable(noticeJoinService.getNoticeListUsingJPQL())
+                .orElseGet(ArrayList::new);
+
+        // 조회된 리스트 결과값 넣어주기
+        model.addAttribute("rList", rList);
+
+        log.info(this.getClass().getName() + ".noticeListUsingJPQL End!");
+
+        return "notice/noticeListJoin";
+    }
+
+    @GetMapping(value = "noticeListUsingQueryDSL")
+    public String noticeListUsingQueryDSL(HttpSession session, ModelMap model) throws Exception {
+
+        // 로그 찍기(추후 찍은 로그를 통해 이 함수에 접근했는 지 파악하기 용이하다)
+        log.info(this.getClass().getName() + ".noticeListUsingQueryDSL Start!");
+
+        // 로그인된 사용자 아이디는 Session에 저장함
+        // 교육용이라 아직 로그인 미구현 상태
+        // 로그인이 있다는 가정하에 로그인한것처럼 Session 값 생성
+        session.setAttribute("SESSION_USER_ID", "USER01");
+
+        // 공지사항 리스트 조회하기
+        // Java 8부터 제공되는 Optional 활용하여 NPE 처리
+        List<NoticeDTO> rList = Optional.ofNullable(noticeJoinService.getNoticeListForQueryDSL())
+                .orElseGet(ArrayList::new);
+
+        // 조회된 리스트 결과값 넣어주기
+        model.addAttribute("rList", rList);
+
+        // 로그 찍기
+        log.info(this.getClass().getName() + ".noticeListUsingQueryDSL End!");
+
+        // 회원아이디가 아닌 회원이름 표시되는 공지사항 리스트 매핑
+        // 함수 처리가 끝나고 보여줄 HTMl (Thymeleaf) 파일명
+        // templates/notice/noticeList.html
+        return "notice/noticeListJoin";
+    }
 }
